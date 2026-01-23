@@ -15,8 +15,20 @@ export async function searchTrains (
 ): Promise<SearchResult> {
   // Default to today/now if not provided
   const now = new Date()
-  const requestDate = date ?? now.toISOString().split('T')[0] ?? '' // YYYY-MM-DD
-  const requestTime = time ?? now.toTimeString().substring(0, 5) // HH:MM
+  const formatter = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Jerusalem',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
+  const parts = formatter.format(now).split(', ')
+  // parts[0] is YYYY-MM-DD, parts[1] is HH:MM
+  
+  const requestDate = date ?? parts[0] ?? '' 
+  const requestTime = time ?? parts[1] ?? ''
 
   const payload: SearchRequest = {
     methodName: 'searchTrainLuzForDateTime',
@@ -59,8 +71,12 @@ export async function searchTrains (
   if (!from) throw new Error(`Station ID ${fromStationId} not found in local data`)
   if (!to) throw new Error(`Station ID ${toStationId} not found in local data`)
 
+  // Filter out trains that have already departed relative to the requested time
+  const targetISO = `${requestDate}T${requestTime}`
+  const filteredTravels = data.result.travels.filter(t => t.departureTime >= targetISO)
+
   return {
-    travels: data.result.travels,
+    travels: filteredTravels,
     from,
     to
   }

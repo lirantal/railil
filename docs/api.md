@@ -28,7 +28,7 @@ function searchTrains(
 
 ### Returns
 
-Returns a `Promise` that resolves to a `SearchResult` object containing the matched stations and travel options.
+Returns a `Promise` that resolves to a `SearchResult` object containing the matched stations and travel options. Only trains departing at or after the requested time (or "now") are returned.
 
 ## `SearchResult`
 
