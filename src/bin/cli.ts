@@ -81,7 +81,7 @@ Options:
 
   // Fetch Data
   try {
-    const results = await searchTrains(
+    const { travels, from, to } = await searchTrains(
       fromStation.id,
       toStation.id,
       values.date,
@@ -90,7 +90,7 @@ Options:
 
     // Limit results
     const limit = parseInt(values.limit || '5', 10)
-    const limitedResults = results.slice(0, limit)
+    const limitedResults = travels.slice(0, limit)
 
     // Format Output
     const format = values.json ? 'json' : (values.output || 'markdown')
@@ -98,14 +98,14 @@ Options:
 
     switch (format) {
       case 'json':
-        output = new JsonFormatter().format(limitedResults)
+        output = new JsonFormatter().format(limitedResults, from, to)
         break
       case 'table':
-        output = new TableFormatter().format(limitedResults)
+        output = new TableFormatter().format(limitedResults, from, to)
         break
       case 'markdown':
       default:
-        output = new MarkdownFormatter().format(limitedResults)
+        output = new MarkdownFormatter().format(limitedResults, from, to)
         break
     }
 

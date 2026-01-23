@@ -1,11 +1,16 @@
 import Table from 'cli-table3'
 import type { OutputFormatter } from './types.js'
-import type { Travel } from '../types.js'
+import type { Travel, Station } from '../types.js'
 
 export class TableFormatter implements OutputFormatter {
-  format (data: Travel[]): string {
+  format (data: Travel[], from?: Station, to?: Station): string {
+    let prefix = ''
+    if (from && to) {
+      prefix = `From: ${from.name.en} - To: ${to.name.en}\n`
+    }
+
     if (data.length === 0) {
-      return 'No trains found.'
+      return prefix + 'No trains found.'
     }
 
     const table = new Table({
@@ -29,6 +34,6 @@ export class TableFormatter implements OutputFormatter {
       table.push([dep, arr, `${durationMins} min`, platform, trainNum])
     })
 
-    return table.toString()
+    return prefix + table.toString()
   }
 }

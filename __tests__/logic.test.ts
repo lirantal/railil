@@ -59,4 +59,15 @@ describe('Formatters', () => {
     const output = formatter.format(mockData);
     assert.ok(output.includes('| 12:00 | 12:30 | 30 min | 5 | 123 |'));
   });
+
+  it('MarkdownFormatter should include station names if provided', () => {
+    const formatter = new MarkdownFormatter();
+    const mockData: Travel[] = [];
+    // Mock stations
+    const fromStation = { id: '1', name: { en: 'A', he: 'A', ru: 'A', ar: 'A' } };
+    const toStation = { id: '2', name: { en: 'B', he: 'B', ru: 'B', ar: 'B' } };
+    
+    const output = formatter.format(mockData, fromStation, toStation);
+    assert.ok(output.includes(`From: **${fromStation.name.en}** - To: **${toStation.name.en}**`));
+  });
 });

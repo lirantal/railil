@@ -44,7 +44,7 @@ railil -f "Beer Sheva" -t "Tel Aviv" -o table
 ### JSON Output
 Get raw JSON data for processing with `jq` or other tools:
 ```bash
-railil -f 5800 -t 4600 --json | jq '.[0].departureTime'
+railil -f 5800 -t 4600 --json | jq '.travels[0].departureTime'
 ```
 
 ### Fuzzy Matching

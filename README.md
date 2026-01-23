@@ -70,12 +70,13 @@ See [CLI Documentation](docs/cli.md) for full reference.
 import { searchTrains, stations } from 'railil';
 
 // 1. Search for trains
-const schedule = await searchTrains(
+const { travels, from, to } = await searchTrains(
   '3700', // Tel Aviv Savidor Center (ID)
   '2300'  // Haifa - Hof HaKarmel (ID)
 );
 
-console.log(`Next train leaves at: ${schedule[0].departureTime}`);
+console.log(`Searching from ${from.name.en} to ${to.name.en}`);
+console.log(`Next train leaves at: ${travels[0].departureTime}`);
 
 // 2. Lookup station IDs
 const station = stations.find(s => s.name.en.includes('Savidor'));

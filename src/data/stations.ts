@@ -1,12 +1,4 @@
-export interface Station {
-  id: string;
-  name: {
-    he: string;
-    en: string;
-    ru: string;
-    ar: string;
-  };
-}
+import type { Station } from '../types.js'
 
 export const stations: Station[] = [
   {

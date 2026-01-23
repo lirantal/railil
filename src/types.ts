@@ -1,3 +1,13 @@
+export interface Station {
+  id: string;
+  name: {
+    he: string;
+    en: string;
+    ru: string;
+    ar: string;
+  };
+}
+
 export interface StationInfo {
   stationId: number;
   arrivalTime: string;
@@ -49,4 +59,10 @@ export interface SearchRequest {
   systemType: string; // '2' seems to be the default
   languageId: string; // 'Hebrew' or 'English'
   methodName: string; // 'searchTrainLuzForDateTime'
+}
+
+export interface SearchResult {
+  travels: Travel[];
+  from: Station;
+  to: Station;
 }

@@ -1,5 +1,6 @@
 import { debuglog } from 'node:util'
-import type { RailResponse, SearchRequest, Travel } from './types.js'
+import { stations } from './data/stations.js'
+import type { RailResponse, SearchRequest, SearchResult } from './types.js'
 
 const debug = debuglog('railil:api')
 
@@ -7,11 +8,11 @@ const API_ENDPOINT = 'https://rail-api.rail.co.il/rjpa/api/v1/timetable/searchTr
 const API_KEY = '5e64d66cf03f4547bcac5de2de06b566'
 
 export async function searchTrains (
-  fromStation: string,
-  toStation: string,
+  fromStationId: string,
+  toStationId: string,
   date?: string,
   time?: string
-): Promise<Travel[]> {
+): Promise<SearchResult> {
   // Default to today/now if not provided
   const now = new Date()
   const requestDate = date ?? now.toISOString().split('T')[0] ?? '' // YYYY-MM-DD
@@ -19,8 +20,8 @@ export async function searchTrains (
 
   const payload: SearchRequest = {
     methodName: 'searchTrainLuzForDateTime',
-    fromStation,
-    toStation,
+    fromStation: fromStationId,
+    toStation: toStationId,
     date: requestDate,
     hour: requestTime,
     systemType: '2',
@@ -50,5 +51,17 @@ export async function searchTrains (
     throw new Error(`Rail API returned error status: ${data.statusCode}`)
   }
 
-  return data.result.travels
+  const from = stations.find(s => s.id === fromStationId)
+  const to = stations.find(s => s.id === toStationId)
+
+  // Although we expect IDs to be valid, we handle the case where they are not in our local list gracefully-ish
+  // but strictly speaking, if we can't identify the station we can't fulfill the Promise<SearchResult> correctly regarding 'from' and 'to' types
+  if (!from) throw new Error(`Station ID ${fromStationId} not found in local data`)
+  if (!to) throw new Error(`Station ID ${toStationId} not found in local data`)
+
+  return {
+    travels: data.result.travels,
+    from,
+    to
+  }
 }

@@ -1,10 +1,15 @@
 import type { OutputFormatter } from './types.js'
-import type { Travel } from '../types.js'
+import type { Travel, Station } from '../types.js'
 
 export class MarkdownFormatter implements OutputFormatter {
-  format (data: Travel[]): string {
+  format (data: Travel[], from?: Station, to?: Station): string {
+    let prefix = ''
+    if (from && to) {
+      prefix = `From: **${from.name.en}** - To: **${to.name.en}**\n\n`
+    }
+
     if (data.length === 0) {
-      return 'No trains found.'
+      return prefix + 'No trains found.'
     }
 
     const header = '| Departure | Arrival | Duration | Platform | Train # |'
@@ -28,6 +33,6 @@ export class MarkdownFormatter implements OutputFormatter {
       return `| ${dep} | ${arr} | ${durationMins} min | ${platform} | ${trainNum} |`
     })
 
-    return [header, separator, ...rows].join('\n')
+    return prefix + [header, separator, ...rows].join('\n')
   }
 }

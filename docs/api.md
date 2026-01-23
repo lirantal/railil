@@ -14,7 +14,7 @@ function searchTrains(
   toStation: string, 
   date?: string, 
   time?: string
-): Promise<Travel[]>
+): Promise<SearchResult>
 ```
 
 ### Parameters
@@ -28,7 +28,19 @@ function searchTrains(
 
 ### Returns
 
-Returns a `Promise` that resolves to an array of `Travel` objects.
+Returns a `Promise` that resolves to a `SearchResult` object containing the matched stations and travel options.
+
+## `SearchResult`
+
+The result object returned by `searchTrains`.
+
+```typescript
+interface SearchResult {
+  travels: Travel[]; // Array of journey options
+  from: Station;     // Resolved origin station
+  to: Station;       // Resolved destination station
+}
+```
 
 ## `stations`
 
