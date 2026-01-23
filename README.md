@@ -41,9 +41,22 @@ Install as a dependency in your project:
 npm install railil
 ```
 
-## Quick Start
+## CLI Reference
 
-### CLI
+### Options
+
+| Flag | Short | Type | Description | Default |
+|------|-------|------|-------------|---------|
+| `--from` | `-f` | string | **Required**. Origin station name or ID. Supports fuzzy matching. | - |
+| `--to` | `-t` | string | **Required**. Destination station name or ID. Supports fuzzy matching. | - |
+| `--date` | `-d` | string | Date in `YYYY-MM-DD` format. | Today (Israel) |
+| `--time` | | string | Time in `HH:MM` format. | Now (Israel) |
+| `--limit`| | number | Number of results to display. | `5` |
+| `--output`| `-o` | string | Output format: `markdown`, `table`, `json`. | `markdown` |
+| `--json` | | boolean| Alias for `--output json`. | `false` |
+| `--help` | `-h` | boolean| Show help message. | - |
+
+### Examples
 
 Search for the next 5 trains from **Tel Aviv Savidor** to **Haifa Hof HaKarmel** (starting from now):
 
@@ -73,9 +86,7 @@ Output as JSON (useful for scripts/automation):
 railil -f 5800 -t 4600 --json
 ```
 
-See [CLI Documentation](docs/cli.md) for full reference.
-
-### API
+## API Reference
 
 ```typescript
 import { searchTrains, stations } from 'railil';
