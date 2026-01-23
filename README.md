@@ -45,10 +45,20 @@ npm install railil
 
 ### CLI
 
-Search for the next 5 trains from **Tel Aviv Savidor** to **Haifa Hof HaKarmel**:
+Search for the next 5 trains from **Tel Aviv Savidor** to **Haifa Hof HaKarmel** (starting from now):
 
 ```bash
 railil --from "Savidor" --to "Hof Carmel"
+```
+
+Search for a specific time and date:
+
+```bash
+# Next trains after 16:30 today
+railil -f "Tel Aviv" -t "Haifa" --time 16:30
+
+# Specific date and time
+railil -f "Modiin" -t "Jerusalem" --date 2026-02-01 --time 08:00
 ```
 
 Output as a CLI Table:
