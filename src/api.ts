@@ -26,8 +26,8 @@ export async function searchTrains (
   })
   const parts = formatter.format(now).split(', ')
   // parts[0] is YYYY-MM-DD, parts[1] is HH:MM
-  
-  const requestDate = date ?? parts[0] ?? '' 
+
+  const requestDate = date ?? parts[0] ?? ''
   const requestTime = time ?? parts[1] ?? ''
 
   const payload: SearchRequest = {

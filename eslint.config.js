@@ -12,6 +12,7 @@ export default [
   {
     rules: {
       'n/no-process-exit': 'off',
+      'n/no-missing-import': 'off',
       'n/no-unsupported-features': 'off',
       'n/no-unpublished-require': 'off',
       'security/detect-non-literal-fs-filename': 'off',

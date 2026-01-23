@@ -7,3 +7,6 @@ MD013:
 
 # Do not enforce line length in markdown files
 line_length: false
+
+# Allow inline HTML (for badges etc)
+MD033: false

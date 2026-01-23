@@ -12,16 +12,17 @@
 
 ## Features
 
-*   **🚄 CLI & API**: Use it as a command-line tool or a library.
-*   **🔍 Fuzzy Search**: Smart matching for station names (e.g., "Savidor", "Modiin").
-*   **⏰ Smart Scheduling**: Automatically finds upcoming trains starting from "now" (Israel time), filtering out past departures.
-*   **🎨 Flexible Output**: JSON (for piping), Markdown (for notes), or beautiful CLI Tables.
-*   **⚡ Modern**: Built with Node.js 22+ native `fetch` and ESM.
-*   **📦 Type-Safe**: Written in TypeScript with full type definitions.
+* **🚄 CLI & API**: Use it as a command-line tool or a library.
+* **🔍 Fuzzy Search**: Smart matching for station names (e.g., "Savidor", "Modiin").
+* **⏰ Smart Scheduling**: Automatically finds upcoming trains starting from "now" (Israel time), filtering out past departures.
+* **🎨 Flexible Output**: JSON (for piping), Markdown (for notes), or beautiful CLI Tables.
+* **⚡ Modern**: Built with Node.js 22+ native `fetch` and ESM.
+* **📦 Type-Safe**: Written in TypeScript with full type definitions.
 
 ## Installation
 
 ### CLI Usage
+
 You can run it directly using `npx` without installation:
 
 ```bash
@@ -35,6 +36,7 @@ npm install -g railil
 ```
 
 ### Library Usage
+
 Install as a dependency in your project:
 
 ```bash
@@ -109,13 +111,13 @@ See [API Documentation](docs/api.md) for full reference.
 
 ## Development
 
-1.  **Clone**: `git clone https://github.com/lirantal/railil.git`
-2.  **Install**: `npm install`
-3.  **Build**: `npm run build`
-4.  **Test**: `npm test`
-5.  **Run CLI**:
-    *   **Development**: `npm start -- -f "Modiin" -t "Savidor"`
-    *   **Production**: `node dist/bin/cli.cjs -f "Modiin" -t "Savidor"`
+1. **Clone**: `git clone https://github.com/lirantal/railil.git`
+2. **Install**: `npm install`
+3. **Build**: `npm run build`
+4. **Test**: `npm test`
+5. **Run CLI**:
+    * **Development**: `npm start -- -f "Modiin" -t "Savidor"`
+    * **Production**: `node dist/bin/cli.cjs -f "Modiin" -t "Savidor"`
 
 ## License
 
