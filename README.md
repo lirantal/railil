@@ -1,39 +1,97 @@
-<!-- markdownlint-disable -->
+# railil
 
-<p align="center"><h1 align="center">
-  railil
-</h1>
+> A modern, type-safe Node.js CLI and API client for Israel Railways.
 
-<p align="center">
-  Israel Rail API and CLI 
-</p>
+`railil` allows you to query train schedules directly from your terminal or integrate Israel Rail data into your Node.js applications. It features fuzzy station searching, multiple output formats, and a zero-dependency architecture (runtime).
 
 <p align="center">
   <a href="https://www.npmjs.org/package/railil"><img src="https://badgen.net/npm/v/railil" alt="npm version"/></a>
   <a href="https://www.npmjs.org/package/railil"><img src="https://badgen.net/npm/license/railil" alt="license"/></a>
-  <a href="https://www.npmjs.org/package/railil"><img src="https://badgen.net/npm/dt/railil" alt="downloads"/></a>
   <a href="https://github.com/lirantal/railil/actions?workflow=CI"><img src="https://github.com/lirantal/railil/workflows/CI/badge.svg" alt="build"/></a>
-  <a href="https://codecov.io/gh/lirantal/railil"><img src="https://badgen.net/codecov/c/github/lirantal/railil" alt="codecov"/></a>
-  <a href="https://snyk.io/test/github/lirantal/railil"><img src="https://snyk.io/test/github/lirantal/railil/badge.svg" alt="Known Vulnerabilities"/></a>
-  <a href="./SECURITY.md"><img src="https://img.shields.io/badge/Security-Responsible%20Disclosure-yellow.svg" alt="Responsible Disclosure Policy" /></a>
 </p>
 
-## Install
+## Features
 
-```sh
-npm add railil
-```
-## Usage: CLI
+*   **🚄 CLI & API**: Use it as a command-line tool or a library.
+*   **🔍 Fuzzy Search**: Smart matching for station names (e.g., "Savidor", "Modiin").
+*   **🎨 Flexible Output**: JSON (for piping), Markdown (for notes), or beautiful CLI Tables.
+*   **⚡ Modern**: Built with Node.js 22+ native `fetch` and ESM.
+*   **📦 Type-Safe**: Written in TypeScript with full type definitions.
+
+## Installation
+
+### CLI Usage
+You can run it directly using `npx` without installation:
 
 ```bash
-// @TODO
-const {} = require('railil')
+npx railil --from "Tel Aviv Savidor" --to "Haifa"
 ```
 
-## Contributing
+Or install globally:
 
-Please consult [CONTRIBUTING](./.github/CONTRIBUTING.md) for guidelines on contributing to this project.
+```bash
+npm install -g railil
+```
 
-## Author
+### Library Usage
+Install as a dependency in your project:
 
-**railil** © [Liran Tal](https://github.com/lirantal), Released under the [Apache-2.0](./LICENSE) License.
+```bash
+npm install railil
+```
+
+## Quick Start
+
+### CLI
+
+Search for the next 5 trains from **Tel Aviv Savidor** to **Haifa Hof HaKarmel**:
+
+```bash
+railil --from "Savidor" --to "Hof Carmel"
+```
+
+Output as a CLI Table:
+
+```bash
+railil -f "Modiin" -t "Jerusalem" --output table
+```
+
+Output as JSON (useful for scripts/automation):
+
+```bash
+railil -f 5800 -t 4600 --json
+```
+
+See [CLI Documentation](docs/cli.md) for full reference.
+
+### API
+
+```typescript
+import { searchTrains, stations } from 'railil';
+
+// 1. Search for trains
+const schedule = await searchTrains(
+  '3700', // Tel Aviv Savidor Center (ID)
+  '2300'  // Haifa - Hof HaKarmel (ID)
+);
+
+console.log(`Next train leaves at: ${schedule[0].departureTime}`);
+
+// 2. Lookup station IDs
+const station = stations.find(s => s.name.en.includes('Savidor'));
+console.log(station.id); // "3700"
+```
+
+See [API Documentation](docs/api.md) for full reference.
+
+## Development
+
+1.  **Clone**: `git clone https://github.com/lirantal/railil.git`
+2.  **Install**: `npm install`
+3.  **Build**: `npm run build`
+4.  **Test**: `npm test`
+5.  **Run CLI**: `node dist/bin/cli.cjs -f "Modiin" -t "Savidor"`
+
+## License
+
+Apache-2.0

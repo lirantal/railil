@@ -1,0 +1,4088 @@
+{
+  "creationDate": "2026-01-22T19:57:18.5315889+02:00",
+  "version": "4.2.0",
+  "successStatus": 1,
+  "statusCode": 200,
+  "errorMessages": null,
+  "result": {
+    "numOfResultsToShow": 5,
+    "startFromIndex": 7,
+    "onFocusIndex": 8,
+    "clientMessageId": 1,
+    "freeSeatsError": false,
+    "rjpaResource": "Main",
+    "travels": [
+      {
+        "departureTime": "2026-01-23T00:17:00",
+        "arrivalTime": "2026-01-23T01:00:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 690,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": null,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T01:00:00",
+            "departureTime": "2026-01-23T00:17:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T00:28:00",
+                "departureTime": "2026-01-23T00:28:00",
+                "platform": 2,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T00:38:00",
+                "departureTime": "2026-01-23T00:38:00",
+                "platform": 4,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T00:42:00",
+                "departureTime": "2026-01-23T00:42:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T00:45:00",
+                "departureTime": "2026-01-23T00:45:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T00:49:00",
+                "departureTime": "2026-01-23T00:49:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T00:52:00",
+                "departureTime": "2026-01-23T00:52:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T00:55:00",
+                "departureTime": "2026-01-23T00:55:00",
+                "platform": 4,
+                "predictedPctLoad": 0
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "23:39",
+                "predictedPctLoad": 0,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "23:46",
+                "predictedPctLoad": 0,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "23:56",
+                "predictedPctLoad": 0,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "00:07",
+                "predictedPctLoad": 0,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "00:17",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "00:28",
+                "predictedPctLoad": 0,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "00:38",
+                "predictedPctLoad": 0,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "00:42",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "00:45",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "00:49",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "00:52",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "00:55",
+                "predictedPctLoad": 0,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "01:00",
+                "predictedPctLoad": 0,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "01:03",
+                "predictedPctLoad": 0,
+                "platform": 6
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T00:28:00",
+        "arrivalTime": "2026-01-23T01:11:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 8694,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": null,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T01:11:00",
+            "departureTime": "2026-01-23T00:28:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T00:39:00",
+                "departureTime": "2026-01-23T00:39:00",
+                "platform": 2,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T00:49:00",
+                "departureTime": "2026-01-23T00:49:00",
+                "platform": 4,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T00:53:00",
+                "departureTime": "2026-01-23T00:53:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T00:56:00",
+                "departureTime": "2026-01-23T00:56:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T01:00:00",
+                "departureTime": "2026-01-23T01:00:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T01:03:00",
+                "departureTime": "2026-01-23T01:03:00",
+                "platform": 1,
+                "predictedPctLoad": 0
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T01:06:00",
+                "departureTime": "2026-01-23T01:06:00",
+                "platform": 4,
+                "predictedPctLoad": 0
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9650,
+                "arrivalTime": "23:59",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "00:07",
+                "predictedPctLoad": 0,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "00:18",
+                "predictedPctLoad": 0,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "00:28",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "00:39",
+                "predictedPctLoad": 0,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "00:49",
+                "predictedPctLoad": 0,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "00:53",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "00:56",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "01:00",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "01:03",
+                "predictedPctLoad": 0,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "01:06",
+                "predictedPctLoad": 0,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "01:11",
+                "predictedPctLoad": 0,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "01:14",
+                "predictedPctLoad": 0,
+                "platform": 6
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T05:02:00",
+        "arrivalTime": "2026-01-23T05:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6616,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 4,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T05:47:00",
+            "departureTime": "2026-01-23T05:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T05:14:00",
+                "departureTime": "2026-01-23T05:14:00",
+                "platform": 2,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T05:22:00",
+                "departureTime": "2026-01-23T05:22:00",
+                "platform": 4,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T05:26:00",
+                "departureTime": "2026-01-23T05:26:00",
+                "platform": 1,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T05:29:00",
+                "departureTime": "2026-01-23T05:29:00",
+                "platform": 1,
+                "predictedPctLoad": 5
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T05:34:00",
+                "departureTime": "2026-01-23T05:34:00",
+                "platform": 1,
+                "predictedPctLoad": 5
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T05:38:00",
+                "departureTime": "2026-01-23T05:38:00",
+                "platform": 1,
+                "predictedPctLoad": 5
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T05:42:00",
+                "departureTime": "2026-01-23T05:42:00",
+                "platform": 4,
+                "predictedPctLoad": 4
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "04:54",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "05:02",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "05:14",
+                "predictedPctLoad": 4,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "05:22",
+                "predictedPctLoad": 4,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "05:26",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "05:29",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "05:34",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "05:38",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "05:42",
+                "predictedPctLoad": 4,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "05:47",
+                "predictedPctLoad": 4,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "05:52",
+                "predictedPctLoad": 4,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "05:55",
+                "predictedPctLoad": 4,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "06:01",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "06:06",
+                "predictedPctLoad": 4,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "06:11",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "06:17",
+                "predictedPctLoad": 3,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "06:23",
+                "predictedPctLoad": 3,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "06:27",
+                "predictedPctLoad": 3,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "06:30",
+                "predictedPctLoad": 3,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "06:35",
+                "predictedPctLoad": 3,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "06:42",
+                "predictedPctLoad": 2,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T05:11:00",
+        "arrivalTime": "2026-01-23T06:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6222,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 4,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T06:04:00",
+            "departureTime": "2026-01-23T05:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T05:23:00",
+                "departureTime": "2026-01-23T05:23:00",
+                "platform": 1,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T05:31:00",
+                "departureTime": "2026-01-23T05:31:00",
+                "platform": 1,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T05:37:00",
+                "departureTime": "2026-01-23T05:37:00",
+                "platform": 1,
+                "predictedPctLoad": 4
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T05:44:00",
+                "departureTime": "2026-01-23T05:44:00",
+                "platform": 4,
+                "predictedPctLoad": 5
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T05:51:00",
+                "departureTime": "2026-01-23T05:51:00",
+                "platform": 1,
+                "predictedPctLoad": 5
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T05:59:00",
+                "departureTime": "2026-01-23T05:59:00",
+                "platform": 1,
+                "predictedPctLoad": 6
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "05:03",
+                "predictedPctLoad": 3,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "05:11",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "05:23",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "05:31",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "05:37",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "05:44",
+                "predictedPctLoad": 5,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "05:51",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "05:59",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "06:04",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "06:11",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "06:14",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "06:21",
+                "predictedPctLoad": 5,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "06:29",
+                "predictedPctLoad": 5,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "06:33",
+                "predictedPctLoad": 5,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "06:38",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "06:48",
+                "predictedPctLoad": 4,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "06:55",
+                "predictedPctLoad": 4,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "07:00",
+                "predictedPctLoad": 3,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T06:02:00",
+        "arrivalTime": "2026-01-23T06:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6618,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 9,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T06:47:00",
+            "departureTime": "2026-01-23T06:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T06:14:00",
+                "departureTime": "2026-01-23T06:14:00",
+                "platform": 2,
+                "predictedPctLoad": 9
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T06:22:00",
+                "departureTime": "2026-01-23T06:22:00",
+                "platform": 4,
+                "predictedPctLoad": 9
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T06:26:00",
+                "departureTime": "2026-01-23T06:26:00",
+                "platform": 1,
+                "predictedPctLoad": 9
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T06:29:00",
+                "departureTime": "2026-01-23T06:29:00",
+                "platform": 1,
+                "predictedPctLoad": 11
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T06:34:00",
+                "departureTime": "2026-01-23T06:34:00",
+                "platform": 1,
+                "predictedPctLoad": 12
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T06:38:00",
+                "departureTime": "2026-01-23T06:38:00",
+                "platform": 1,
+                "predictedPctLoad": 11
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T06:42:00",
+                "departureTime": "2026-01-23T06:42:00",
+                "platform": 4,
+                "predictedPctLoad": 11
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "05:24",
+                "predictedPctLoad": 5,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "05:31",
+                "predictedPctLoad": 5,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "05:40",
+                "predictedPctLoad": 6,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "05:52",
+                "predictedPctLoad": 8,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "06:02",
+                "predictedPctLoad": 9,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "06:14",
+                "predictedPctLoad": 9,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "06:22",
+                "predictedPctLoad": 9,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "06:26",
+                "predictedPctLoad": 9,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "06:29",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "06:34",
+                "predictedPctLoad": 12,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "06:38",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "06:42",
+                "predictedPctLoad": 11,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "06:47",
+                "predictedPctLoad": 8,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "06:52",
+                "predictedPctLoad": 8,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "06:55",
+                "predictedPctLoad": 7,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "07:01",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "07:06",
+                "predictedPctLoad": 7,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "07:11",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "07:17",
+                "predictedPctLoad": 6,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "07:23",
+                "predictedPctLoad": 6,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "07:27",
+                "predictedPctLoad": 6,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "07:30",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "07:35",
+                "predictedPctLoad": 5,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "07:42",
+                "predictedPctLoad": 5,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T06:11:00",
+        "arrivalTime": "2026-01-23T07:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6224,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 6,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T07:04:00",
+            "departureTime": "2026-01-23T06:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T06:23:00",
+                "departureTime": "2026-01-23T06:23:00",
+                "platform": 1,
+                "predictedPctLoad": 6
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T06:31:00",
+                "departureTime": "2026-01-23T06:31:00",
+                "platform": 1,
+                "predictedPctLoad": 6
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T06:37:00",
+                "departureTime": "2026-01-23T06:37:00",
+                "platform": 1,
+                "predictedPctLoad": 7
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T06:44:00",
+                "departureTime": "2026-01-23T06:44:00",
+                "platform": 4,
+                "predictedPctLoad": 7
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T06:51:00",
+                "departureTime": "2026-01-23T06:51:00",
+                "platform": 1,
+                "predictedPctLoad": 7
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T06:59:00",
+                "departureTime": "2026-01-23T06:59:00",
+                "platform": 1,
+                "predictedPctLoad": 8
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "06:03",
+                "predictedPctLoad": 5,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "06:11",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "06:23",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "06:31",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "06:37",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "06:44",
+                "predictedPctLoad": 7,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "06:51",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "06:59",
+                "predictedPctLoad": 8,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "07:04",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "07:11",
+                "predictedPctLoad": 9,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "07:14",
+                "predictedPctLoad": 8,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "07:21",
+                "predictedPctLoad": 8,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "07:29",
+                "predictedPctLoad": 7,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "07:33",
+                "predictedPctLoad": 7,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "07:38",
+                "predictedPctLoad": 7,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "07:48",
+                "predictedPctLoad": 7,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "07:55",
+                "predictedPctLoad": 6,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "08:00",
+                "predictedPctLoad": 4,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T07:02:00",
+        "arrivalTime": "2026-01-23T07:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6620,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 17,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T07:47:00",
+            "departureTime": "2026-01-23T07:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T07:14:00",
+                "departureTime": "2026-01-23T07:14:00",
+                "platform": 2,
+                "predictedPctLoad": 17
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T07:22:00",
+                "departureTime": "2026-01-23T07:22:00",
+                "platform": 4,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T07:26:00",
+                "departureTime": "2026-01-23T07:26:00",
+                "platform": 1,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T07:29:00",
+                "departureTime": "2026-01-23T07:29:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T07:34:00",
+                "departureTime": "2026-01-23T07:34:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T07:38:00",
+                "departureTime": "2026-01-23T07:38:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T07:42:00",
+                "departureTime": "2026-01-23T07:42:00",
+                "platform": 4,
+                "predictedPctLoad": 18
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "06:24",
+                "predictedPctLoad": 10,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "06:31",
+                "predictedPctLoad": 11,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "06:40",
+                "predictedPctLoad": 11,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "06:52",
+                "predictedPctLoad": 15,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "07:02",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "07:14",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "07:22",
+                "predictedPctLoad": 18,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "07:26",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "07:29",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "07:34",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "07:38",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "07:42",
+                "predictedPctLoad": 18,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "07:47",
+                "predictedPctLoad": 14,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "07:52",
+                "predictedPctLoad": 15,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "07:55",
+                "predictedPctLoad": 14,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "08:01",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "08:06",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "08:11",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "08:17",
+                "predictedPctLoad": 12,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "08:23",
+                "predictedPctLoad": 11,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "08:27",
+                "predictedPctLoad": 11,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "08:30",
+                "predictedPctLoad": 10,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "08:35",
+                "predictedPctLoad": 10,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "08:42",
+                "predictedPctLoad": 8,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T07:11:00",
+        "arrivalTime": "2026-01-23T08:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6226,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 11,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T08:04:00",
+            "departureTime": "2026-01-23T07:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T07:23:00",
+                "departureTime": "2026-01-23T07:23:00",
+                "platform": 1,
+                "predictedPctLoad": 11
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T07:31:00",
+                "departureTime": "2026-01-23T07:31:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T07:37:00",
+                "departureTime": "2026-01-23T07:37:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T07:44:00",
+                "departureTime": "2026-01-23T07:44:00",
+                "platform": 4,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T07:51:00",
+                "departureTime": "2026-01-23T07:51:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T07:59:00",
+                "departureTime": "2026-01-23T07:59:00",
+                "platform": 1,
+                "predictedPctLoad": 14
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "07:03",
+                "predictedPctLoad": 10,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "07:11",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "07:23",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "07:31",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "07:37",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "07:44",
+                "predictedPctLoad": 13,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "07:51",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "07:59",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "08:04",
+                "predictedPctLoad": 12,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "08:11",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "08:14",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "08:21",
+                "predictedPctLoad": 13,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "08:29",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "08:33",
+                "predictedPctLoad": 12,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "08:38",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "08:48",
+                "predictedPctLoad": 10,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "08:55",
+                "predictedPctLoad": 10,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "09:00",
+                "predictedPctLoad": 8,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T08:02:00",
+        "arrivalTime": "2026-01-23T08:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6622,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 20,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T08:47:00",
+            "departureTime": "2026-01-23T08:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T08:14:00",
+                "departureTime": "2026-01-23T08:14:00",
+                "platform": 2,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T08:22:00",
+                "departureTime": "2026-01-23T08:22:00",
+                "platform": 4,
+                "predictedPctLoad": 23
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T08:26:00",
+                "departureTime": "2026-01-23T08:26:00",
+                "platform": 1,
+                "predictedPctLoad": 25
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T08:29:00",
+                "departureTime": "2026-01-23T08:29:00",
+                "platform": 1,
+                "predictedPctLoad": 27
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T08:34:00",
+                "departureTime": "2026-01-23T08:34:00",
+                "platform": 1,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T08:38:00",
+                "departureTime": "2026-01-23T08:38:00",
+                "platform": 1,
+                "predictedPctLoad": 29
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T08:42:00",
+                "departureTime": "2026-01-23T08:42:00",
+                "platform": 4,
+                "predictedPctLoad": 23
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "07:24",
+                "predictedPctLoad": 12,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "07:31",
+                "predictedPctLoad": 13,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "07:40",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "07:52",
+                "predictedPctLoad": 18,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "08:02",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "08:14",
+                "predictedPctLoad": 22,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "08:22",
+                "predictedPctLoad": 23,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "08:26",
+                "predictedPctLoad": 25,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "08:29",
+                "predictedPctLoad": 27,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "08:34",
+                "predictedPctLoad": 28,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "08:38",
+                "predictedPctLoad": 29,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "08:42",
+                "predictedPctLoad": 23,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "08:47",
+                "predictedPctLoad": 19,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "08:52",
+                "predictedPctLoad": 18,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "08:55",
+                "predictedPctLoad": 19,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "09:01",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "09:06",
+                "predictedPctLoad": 16,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "09:11",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "09:17",
+                "predictedPctLoad": 15,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "09:23",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "09:27",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "09:30",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "09:35",
+                "predictedPctLoad": 12,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "09:42",
+                "predictedPctLoad": 11,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T08:11:00",
+        "arrivalTime": "2026-01-23T09:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6228,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 15,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T09:04:00",
+            "departureTime": "2026-01-23T08:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T08:23:00",
+                "departureTime": "2026-01-23T08:23:00",
+                "platform": 1,
+                "predictedPctLoad": 15
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T08:31:00",
+                "departureTime": "2026-01-23T08:31:00",
+                "platform": 1,
+                "predictedPctLoad": 16
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T08:37:00",
+                "departureTime": "2026-01-23T08:37:00",
+                "platform": 1,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T08:44:00",
+                "departureTime": "2026-01-23T08:44:00",
+                "platform": 4,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T08:51:00",
+                "departureTime": "2026-01-23T08:51:00",
+                "platform": 1,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T08:59:00",
+                "departureTime": "2026-01-23T08:59:00",
+                "platform": 1,
+                "predictedPctLoad": 18
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "08:03",
+                "predictedPctLoad": 13,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "08:11",
+                "predictedPctLoad": 15,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "08:23",
+                "predictedPctLoad": 15,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "08:31",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "08:37",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "08:44",
+                "predictedPctLoad": 18,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "08:51",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "08:59",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "09:04",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "09:11",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "09:14",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "09:21",
+                "predictedPctLoad": 19,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "09:29",
+                "predictedPctLoad": 18,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "09:33",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "09:38",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "09:48",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "09:55",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "10:00",
+                "predictedPctLoad": 9,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T09:02:00",
+        "arrivalTime": "2026-01-23T09:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6624,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 22,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T09:47:00",
+            "departureTime": "2026-01-23T09:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T09:14:00",
+                "departureTime": "2026-01-23T09:14:00",
+                "platform": 2,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T09:22:00",
+                "departureTime": "2026-01-23T09:22:00",
+                "platform": 4,
+                "predictedPctLoad": 30
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T09:26:00",
+                "departureTime": "2026-01-23T09:26:00",
+                "platform": 1,
+                "predictedPctLoad": 31
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T09:29:00",
+                "departureTime": "2026-01-23T09:29:00",
+                "platform": 1,
+                "predictedPctLoad": 34
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T09:34:00",
+                "departureTime": "2026-01-23T09:34:00",
+                "platform": 1,
+                "predictedPctLoad": 34
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T09:38:00",
+                "departureTime": "2026-01-23T09:38:00",
+                "platform": 1,
+                "predictedPctLoad": 34
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T09:42:00",
+                "departureTime": "2026-01-23T09:42:00",
+                "platform": 4,
+                "predictedPctLoad": 27
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "08:24",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "08:31",
+                "predictedPctLoad": 14,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "08:40",
+                "predictedPctLoad": 16,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "08:52",
+                "predictedPctLoad": 20,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "09:02",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "09:14",
+                "predictedPctLoad": 28,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "09:22",
+                "predictedPctLoad": 30,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "09:26",
+                "predictedPctLoad": 31,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "09:29",
+                "predictedPctLoad": 34,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "09:34",
+                "predictedPctLoad": 34,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "09:38",
+                "predictedPctLoad": 34,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "09:42",
+                "predictedPctLoad": 27,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "09:47",
+                "predictedPctLoad": 22,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "09:52",
+                "predictedPctLoad": 21,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "09:55",
+                "predictedPctLoad": 18,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "10:01",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "10:06",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "10:11",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "10:17",
+                "predictedPctLoad": 16,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "10:23",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "10:27",
+                "predictedPctLoad": 14,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "10:30",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "10:35",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "10:42",
+                "predictedPctLoad": 11,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T09:11:00",
+        "arrivalTime": "2026-01-23T10:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6230,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 14,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T10:04:00",
+            "departureTime": "2026-01-23T09:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T09:23:00",
+                "departureTime": "2026-01-23T09:23:00",
+                "platform": 1,
+                "predictedPctLoad": 16
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T09:31:00",
+                "departureTime": "2026-01-23T09:31:00",
+                "platform": 1,
+                "predictedPctLoad": 17
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T09:37:00",
+                "departureTime": "2026-01-23T09:37:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T09:44:00",
+                "departureTime": "2026-01-23T09:44:00",
+                "platform": 4,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T09:51:00",
+                "departureTime": "2026-01-23T09:51:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T09:59:00",
+                "departureTime": "2026-01-23T09:59:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "09:03",
+                "predictedPctLoad": 14,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "09:11",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "09:23",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "09:31",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "09:37",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "09:44",
+                "predictedPctLoad": 21,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "09:51",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "09:59",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "10:04",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "10:11",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "10:14",
+                "predictedPctLoad": 23,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "10:21",
+                "predictedPctLoad": 22,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "10:29",
+                "predictedPctLoad": 21,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "10:33",
+                "predictedPctLoad": 20,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "10:38",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "10:48",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "10:55",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "11:00",
+                "predictedPctLoad": 11,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T10:02:00",
+        "arrivalTime": "2026-01-23T10:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6626,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 21,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T10:47:00",
+            "departureTime": "2026-01-23T10:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T10:14:00",
+                "departureTime": "2026-01-23T10:14:00",
+                "platform": 2,
+                "predictedPctLoad": 23
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T10:22:00",
+                "departureTime": "2026-01-23T10:22:00",
+                "platform": 4,
+                "predictedPctLoad": 25
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T10:26:00",
+                "departureTime": "2026-01-23T10:26:00",
+                "platform": 1,
+                "predictedPctLoad": 25
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T10:29:00",
+                "departureTime": "2026-01-23T10:29:00",
+                "platform": 1,
+                "predictedPctLoad": 27
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T10:34:00",
+                "departureTime": "2026-01-23T10:34:00",
+                "platform": 1,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T10:38:00",
+                "departureTime": "2026-01-23T10:38:00",
+                "platform": 1,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T10:42:00",
+                "departureTime": "2026-01-23T10:42:00",
+                "platform": 4,
+                "predictedPctLoad": 24
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "09:24",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "09:31",
+                "predictedPctLoad": 14,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "09:40",
+                "predictedPctLoad": 16,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "09:52",
+                "predictedPctLoad": 22,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "10:02",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "10:14",
+                "predictedPctLoad": 23,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "10:22",
+                "predictedPctLoad": 25,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "10:26",
+                "predictedPctLoad": 25,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "10:29",
+                "predictedPctLoad": 27,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "10:34",
+                "predictedPctLoad": 28,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "10:38",
+                "predictedPctLoad": 28,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "10:42",
+                "predictedPctLoad": 24,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "10:47",
+                "predictedPctLoad": 21,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "10:52",
+                "predictedPctLoad": 20,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "10:55",
+                "predictedPctLoad": 18,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "11:01",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "11:06",
+                "predictedPctLoad": 18,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "11:11",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "11:17",
+                "predictedPctLoad": 16,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "11:23",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "11:27",
+                "predictedPctLoad": 14,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "11:30",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "11:35",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "11:42",
+                "predictedPctLoad": 11,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T10:11:00",
+        "arrivalTime": "2026-01-23T11:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6232,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 16,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T11:04:00",
+            "departureTime": "2026-01-23T10:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T10:23:00",
+                "departureTime": "2026-01-23T10:23:00",
+                "platform": 1,
+                "predictedPctLoad": 16
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T10:31:00",
+                "departureTime": "2026-01-23T10:31:00",
+                "platform": 1,
+                "predictedPctLoad": 17
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T10:37:00",
+                "departureTime": "2026-01-23T10:37:00",
+                "platform": 1,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T10:44:00",
+                "departureTime": "2026-01-23T10:44:00",
+                "platform": 4,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T10:51:00",
+                "departureTime": "2026-01-23T10:51:00",
+                "platform": 1,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T10:59:00",
+                "departureTime": "2026-01-23T10:59:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "10:03",
+                "predictedPctLoad": 14,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "10:11",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "10:23",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "10:31",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "10:37",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "10:44",
+                "predictedPctLoad": 19,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "10:51",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "10:59",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "11:04",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "11:11",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "11:14",
+                "predictedPctLoad": 25,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "11:21",
+                "predictedPctLoad": 25,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "11:29",
+                "predictedPctLoad": 22,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "11:33",
+                "predictedPctLoad": 22,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "11:38",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "11:48",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "11:55",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "12:00",
+                "predictedPctLoad": 12,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T11:02:00",
+        "arrivalTime": "2026-01-23T11:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6628,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 18,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T11:47:00",
+            "departureTime": "2026-01-23T11:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T11:14:00",
+                "departureTime": "2026-01-23T11:14:00",
+                "platform": 2,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T11:22:00",
+                "departureTime": "2026-01-23T11:22:00",
+                "platform": 4,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T11:26:00",
+                "departureTime": "2026-01-23T11:26:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T11:29:00",
+                "departureTime": "2026-01-23T11:29:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T11:34:00",
+                "departureTime": "2026-01-23T11:34:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T11:38:00",
+                "departureTime": "2026-01-23T11:38:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T11:42:00",
+                "departureTime": "2026-01-23T11:42:00",
+                "platform": 4,
+                "predictedPctLoad": 19
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "10:24",
+                "predictedPctLoad": 11,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "10:31",
+                "predictedPctLoad": 12,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "10:40",
+                "predictedPctLoad": 12,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "10:52",
+                "predictedPctLoad": 16,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "11:02",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "11:14",
+                "predictedPctLoad": 19,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "11:22",
+                "predictedPctLoad": 20,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "11:26",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "11:29",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "11:34",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "11:38",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "11:42",
+                "predictedPctLoad": 19,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "11:47",
+                "predictedPctLoad": 18,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "11:52",
+                "predictedPctLoad": 18,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "11:55",
+                "predictedPctLoad": 16,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "12:01",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "12:06",
+                "predictedPctLoad": 16,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "12:11",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "12:17",
+                "predictedPctLoad": 15,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "12:23",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "12:27",
+                "predictedPctLoad": 12,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "12:30",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "12:35",
+                "predictedPctLoad": 11,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "12:42",
+                "predictedPctLoad": 9,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T11:11:00",
+        "arrivalTime": "2026-01-23T12:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6234,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 14,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T12:04:00",
+            "departureTime": "2026-01-23T11:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T11:23:00",
+                "departureTime": "2026-01-23T11:23:00",
+                "platform": 1,
+                "predictedPctLoad": 14
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T11:31:00",
+                "departureTime": "2026-01-23T11:31:00",
+                "platform": 1,
+                "predictedPctLoad": 17
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T11:37:00",
+                "departureTime": "2026-01-23T11:37:00",
+                "platform": 1,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T11:44:00",
+                "departureTime": "2026-01-23T11:44:00",
+                "platform": 4,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T11:51:00",
+                "departureTime": "2026-01-23T11:51:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T11:59:00",
+                "departureTime": "2026-01-23T11:59:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "11:03",
+                "predictedPctLoad": 13,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "11:11",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "11:23",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "11:31",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "11:37",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "11:44",
+                "predictedPctLoad": 19,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "11:51",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "11:59",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "12:04",
+                "predictedPctLoad": 23,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "12:11",
+                "predictedPctLoad": 32,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "12:14",
+                "predictedPctLoad": 32,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "12:21",
+                "predictedPctLoad": 33,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "12:29",
+                "predictedPctLoad": 30,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "12:33",
+                "predictedPctLoad": 28,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "12:38",
+                "predictedPctLoad": 24,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "12:48",
+                "predictedPctLoad": 19,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "12:55",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "13:00",
+                "predictedPctLoad": 11,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T12:02:00",
+        "arrivalTime": "2026-01-23T12:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6630,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 18,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T12:47:00",
+            "departureTime": "2026-01-23T12:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T12:14:00",
+                "departureTime": "2026-01-23T12:14:00",
+                "platform": 2,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T12:22:00",
+                "departureTime": "2026-01-23T12:22:00",
+                "platform": 4,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T12:26:00",
+                "departureTime": "2026-01-23T12:26:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T12:29:00",
+                "departureTime": "2026-01-23T12:29:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T12:34:00",
+                "departureTime": "2026-01-23T12:34:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T12:38:00",
+                "departureTime": "2026-01-23T12:38:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T12:42:00",
+                "departureTime": "2026-01-23T12:42:00",
+                "platform": 4,
+                "predictedPctLoad": 19
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "11:24",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "11:31",
+                "predictedPctLoad": 13,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "11:40",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "11:52",
+                "predictedPctLoad": 18,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "12:02",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "12:14",
+                "predictedPctLoad": 21,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "12:22",
+                "predictedPctLoad": 22,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "12:26",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "12:29",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "12:34",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "12:38",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "12:42",
+                "predictedPctLoad": 19,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "12:47",
+                "predictedPctLoad": 20,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "12:52",
+                "predictedPctLoad": 19,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "12:55",
+                "predictedPctLoad": 20,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "13:01",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "13:06",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "13:11",
+                "predictedPctLoad": 17,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "13:17",
+                "predictedPctLoad": 16,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "13:23",
+                "predictedPctLoad": 14,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "13:27",
+                "predictedPctLoad": 13,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "13:30",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "13:35",
+                "predictedPctLoad": 12,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "13:42",
+                "predictedPctLoad": 11,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T12:11:00",
+        "arrivalTime": "2026-01-23T13:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6236,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 15,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T13:04:00",
+            "departureTime": "2026-01-23T12:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T12:23:00",
+                "departureTime": "2026-01-23T12:23:00",
+                "platform": 1,
+                "predictedPctLoad": 16
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T12:31:00",
+                "departureTime": "2026-01-23T12:31:00",
+                "platform": 1,
+                "predictedPctLoad": 18
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T12:37:00",
+                "departureTime": "2026-01-23T12:37:00",
+                "platform": 1,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T12:44:00",
+                "departureTime": "2026-01-23T12:44:00",
+                "platform": 4,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T12:51:00",
+                "departureTime": "2026-01-23T12:51:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T12:59:00",
+                "departureTime": "2026-01-23T12:59:00",
+                "platform": 1,
+                "predictedPctLoad": 22
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "12:03",
+                "predictedPctLoad": 14,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "12:11",
+                "predictedPctLoad": 15,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "12:23",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "12:31",
+                "predictedPctLoad": 18,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "12:37",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "12:44",
+                "predictedPctLoad": 19,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "12:51",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "12:59",
+                "predictedPctLoad": 22,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "13:04",
+                "predictedPctLoad": 27,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "13:11",
+                "predictedPctLoad": 39,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "13:14",
+                "predictedPctLoad": 44,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "13:21",
+                "predictedPctLoad": 49,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "13:29",
+                "predictedPctLoad": 45,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "13:33",
+                "predictedPctLoad": 45,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "13:38",
+                "predictedPctLoad": 38,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "13:48",
+                "predictedPctLoad": 28,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "13:55",
+                "predictedPctLoad": 23,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "14:00",
+                "predictedPctLoad": 11,
+                "platform": 3
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T13:02:00",
+        "arrivalTime": "2026-01-23T13:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6632,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 23,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T13:47:00",
+            "departureTime": "2026-01-23T13:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T13:14:00",
+                "departureTime": "2026-01-23T13:14:00",
+                "platform": 2,
+                "predictedPctLoad": 25
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T13:22:00",
+                "departureTime": "2026-01-23T13:22:00",
+                "platform": 4,
+                "predictedPctLoad": 26
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T13:26:00",
+                "departureTime": "2026-01-23T13:26:00",
+                "platform": 1,
+                "predictedPctLoad": 26
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T13:29:00",
+                "departureTime": "2026-01-23T13:29:00",
+                "platform": 1,
+                "predictedPctLoad": 26
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T13:34:00",
+                "departureTime": "2026-01-23T13:34:00",
+                "platform": 1,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T13:38:00",
+                "departureTime": "2026-01-23T13:38:00",
+                "platform": 1,
+                "predictedPctLoad": 28
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T13:42:00",
+                "departureTime": "2026-01-23T13:42:00",
+                "platform": 4,
+                "predictedPctLoad": 25
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "12:24",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "12:31",
+                "predictedPctLoad": 17,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "12:40",
+                "predictedPctLoad": 19,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "12:52",
+                "predictedPctLoad": 21,
+                "platform": 3
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "13:02",
+                "predictedPctLoad": 23,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "13:14",
+                "predictedPctLoad": 25,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "13:22",
+                "predictedPctLoad": 26,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "13:26",
+                "predictedPctLoad": 26,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "13:29",
+                "predictedPctLoad": 26,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "13:34",
+                "predictedPctLoad": 28,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "13:38",
+                "predictedPctLoad": 28,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "13:42",
+                "predictedPctLoad": 25,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "13:47",
+                "predictedPctLoad": 25,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "13:52",
+                "predictedPctLoad": 26,
+                "platform": 5
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "13:55",
+                "predictedPctLoad": 26,
+                "platform": 3
+              },
+              {
+                "stationId": 4100,
+                "arrivalTime": "14:01",
+                "predictedPctLoad": 26,
+                "platform": 1
+              },
+              {
+                "stationId": 4170,
+                "arrivalTime": "14:06",
+                "predictedPctLoad": 25,
+                "platform": 2
+              },
+              {
+                "stationId": 4250,
+                "arrivalTime": "14:11",
+                "predictedPctLoad": 24,
+                "platform": 1
+              },
+              {
+                "stationId": 8800,
+                "arrivalTime": "14:17",
+                "predictedPctLoad": 22,
+                "platform": 4
+              },
+              {
+                "stationId": 8700,
+                "arrivalTime": "14:23",
+                "predictedPctLoad": 19,
+                "platform": 2
+              },
+              {
+                "stationId": 9200,
+                "arrivalTime": "14:27",
+                "predictedPctLoad": 17,
+                "platform": 2
+              },
+              {
+                "stationId": 2960,
+                "arrivalTime": "14:30",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 2940,
+                "arrivalTime": "14:35",
+                "predictedPctLoad": 15,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "14:42",
+                "predictedPctLoad": 13,
+                "platform": 2
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T13:11:00",
+        "arrivalTime": "2026-01-23T14:04:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6238,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 14,
+            "destPlatform": 1,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T14:04:00",
+            "departureTime": "2026-01-23T13:11:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 5410,
+                "arrivalTime": "2026-01-23T13:23:00",
+                "departureTime": "2026-01-23T13:23:00",
+                "platform": 1,
+                "predictedPctLoad": 14
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "2026-01-23T13:31:00",
+                "departureTime": "2026-01-23T13:31:00",
+                "platform": 1,
+                "predictedPctLoad": 19
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "2026-01-23T13:37:00",
+                "departureTime": "2026-01-23T13:37:00",
+                "platform": 1,
+                "predictedPctLoad": 20
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "2026-01-23T13:44:00",
+                "departureTime": "2026-01-23T13:44:00",
+                "platform": 4,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "2026-01-23T13:51:00",
+                "departureTime": "2026-01-23T13:51:00",
+                "platform": 1,
+                "predictedPctLoad": 21
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T13:59:00",
+                "departureTime": "2026-01-23T13:59:00",
+                "platform": 1,
+                "predictedPctLoad": 25
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 5900,
+                "arrivalTime": "13:03",
+                "predictedPctLoad": 9,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "13:11",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 5410,
+                "arrivalTime": "13:23",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 5200,
+                "arrivalTime": "13:31",
+                "predictedPctLoad": 19,
+                "platform": 1
+              },
+              {
+                "stationId": 5300,
+                "arrivalTime": "13:37",
+                "predictedPctLoad": 20,
+                "platform": 1
+              },
+              {
+                "stationId": 5000,
+                "arrivalTime": "13:44",
+                "predictedPctLoad": 21,
+                "platform": 4
+              },
+              {
+                "stationId": 4800,
+                "arrivalTime": "13:51",
+                "predictedPctLoad": 21,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "13:59",
+                "predictedPctLoad": 25,
+                "platform": 1
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "14:04",
+                "predictedPctLoad": 44,
+                "platform": 1
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "14:11",
+                "predictedPctLoad": 67,
+                "platform": 1
+              },
+              {
+                "stationId": 3600,
+                "arrivalTime": "14:14",
+                "predictedPctLoad": 70,
+                "platform": 1
+              },
+              {
+                "stationId": 3500,
+                "arrivalTime": "14:21",
+                "predictedPctLoad": 73,
+                "platform": 6
+              },
+              {
+                "stationId": 3400,
+                "arrivalTime": "14:29",
+                "predictedPctLoad": 64,
+                "platform": 2
+              },
+              {
+                "stationId": 3310,
+                "arrivalTime": "14:33",
+                "predictedPctLoad": 60,
+                "platform": 2
+              },
+              {
+                "stationId": 3300,
+                "arrivalTime": "14:38",
+                "predictedPctLoad": 51,
+                "platform": 1
+              },
+              {
+                "stationId": 3100,
+                "arrivalTime": "14:48",
+                "predictedPctLoad": 37,
+                "platform": 2
+              },
+              {
+                "stationId": 2820,
+                "arrivalTime": "14:55",
+                "predictedPctLoad": 26,
+                "platform": 1
+              },
+              {
+                "stationId": 2800,
+                "arrivalTime": "15:00",
+                "predictedPctLoad": 6,
+                "platform": 1
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      },
+      {
+        "departureTime": "2026-01-23T14:02:00",
+        "arrivalTime": "2026-01-23T14:47:00",
+        "freeSeats": 0,
+        "travelMessages": [],
+        "trains": [
+          {
+            "trainNumber": 6634,
+            "orignStation": 5800,
+            "destinationStation": 4600,
+            "originPlatform": 1,
+            "predictedPctLoad": 16,
+            "destPlatform": 3,
+            "freeSeats": 0,
+            "arrivalTime": "2026-01-23T14:47:00",
+            "departureTime": "2026-01-23T14:02:00",
+            "handicap": 1,
+            "carriagetype": null,
+            "isSamePlatformIsland": "No",
+            "trainPosition": null,
+            "stopStations": [
+              {
+                "stationId": 9000,
+                "arrivalTime": "2026-01-23T14:14:00",
+                "departureTime": "2026-01-23T14:14:00",
+                "platform": 2,
+                "predictedPctLoad": 15
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "2026-01-23T14:22:00",
+                "departureTime": "2026-01-23T14:22:00",
+                "platform": 4,
+                "predictedPctLoad": 15
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "2026-01-23T14:26:00",
+                "departureTime": "2026-01-23T14:26:00",
+                "platform": 1,
+                "predictedPctLoad": 14
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "2026-01-23T14:29:00",
+                "departureTime": "2026-01-23T14:29:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "2026-01-23T14:34:00",
+                "departureTime": "2026-01-23T14:34:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "2026-01-23T14:38:00",
+                "departureTime": "2026-01-23T14:38:00",
+                "platform": 1,
+                "predictedPctLoad": 13
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "2026-01-23T14:42:00",
+                "departureTime": "2026-01-23T14:42:00",
+                "platform": 4,
+                "predictedPctLoad": 11
+              }
+            ],
+            "routeStations": [
+              {
+                "stationId": 9700,
+                "arrivalTime": "13:24",
+                "predictedPctLoad": 9,
+                "platform": 2
+              },
+              {
+                "stationId": 9650,
+                "arrivalTime": "13:31",
+                "predictedPctLoad": 10,
+                "platform": 3
+              },
+              {
+                "stationId": 9600,
+                "arrivalTime": "13:40",
+                "predictedPctLoad": 12,
+                "platform": 2
+              },
+              {
+                "stationId": 5900,
+                "arrivalTime": "13:52",
+                "predictedPctLoad": 14,
+                "platform": 4
+              },
+              {
+                "stationId": 5800,
+                "arrivalTime": "14:02",
+                "predictedPctLoad": 16,
+                "platform": 1
+              },
+              {
+                "stationId": 9000,
+                "arrivalTime": "14:14",
+                "predictedPctLoad": 15,
+                "platform": 2
+              },
+              {
+                "stationId": 9800,
+                "arrivalTime": "14:22",
+                "predictedPctLoad": 15,
+                "platform": 4
+              },
+              {
+                "stationId": 4690,
+                "arrivalTime": "14:26",
+                "predictedPctLoad": 14,
+                "platform": 1
+              },
+              {
+                "stationId": 4680,
+                "arrivalTime": "14:29",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 4660,
+                "arrivalTime": "14:34",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 4640,
+                "arrivalTime": "14:38",
+                "predictedPctLoad": 13,
+                "platform": 1
+              },
+              {
+                "stationId": 4900,
+                "arrivalTime": "14:42",
+                "predictedPctLoad": 11,
+                "platform": 4
+              },
+              {
+                "stationId": 4600,
+                "arrivalTime": "14:47",
+                "predictedPctLoad": 10,
+                "platform": 3
+              },
+              {
+                "stationId": 3700,
+                "arrivalTime": "14:50",
+                "predictedPctLoad": 9,
+                "platform": 6
+              }
+            ],
+            "etaDiffTimes": [],
+            "visaWagonData": null
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+import type { OutputFormatter } from './types.js'
+import type { Travel } from '../types.js'
+
+export class MarkdownFormatter implements OutputFormatter {
+  format (data: Travel[]): string {
+    if (data.length === 0) {
+      return 'No trains found.'
+    }
+
+    const header = '| Departure | Arrival | Duration | Platform | Train # |'
+    const separator = '|---|---|---|---|---|'
+    const rows = data.map(t => {
+      const dep = t.departureTime.split('T')[1]?.substring(0, 5) ?? 'N/A'
+      const arr = t.arrivalTime.split('T')[1]?.substring(0, 5) ?? 'N/A'
+
+      const depDate = new Date(t.departureTime)
+      const arrDate = new Date(t.arrivalTime)
+      const durationMs = arrDate.getTime() - depDate.getTime()
+      const durationMins = Math.floor(durationMs / 60000)
+
+      // Assuming direct train or first train for platform/number
+      // The API structure has `trains` array (transfers?).
+      // For simple display, let's show the first train's details or summary.
+      const firstTrain = t.trains[0]
+      const platform = firstTrain ? firstTrain.originPlatform : 'N/A'
+      const trainNum = firstTrain ? firstTrain.trainNumber : 'N/A'
+
+      return `| ${dep} | ${arr} | ${durationMins} min | ${platform} | ${trainNum} |`
+    })
+
+    return [header, separator, ...rows].join('\n')
+  }
+}
