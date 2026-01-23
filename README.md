@@ -91,7 +91,9 @@ See [API Documentation](docs/api.md) for full reference.
 2.  **Install**: `npm install`
 3.  **Build**: `npm run build`
 4.  **Test**: `npm test`
-5.  **Run CLI**: `node dist/bin/cli.cjs -f "Modiin" -t "Savidor"`
+5.  **Run CLI**:
+    *   **Development**: `npm start -- -f "Modiin" -t "Savidor"`
+    *   **Production**: `node dist/bin/cli.cjs -f "Modiin" -t "Savidor"`
 
 ## License
 

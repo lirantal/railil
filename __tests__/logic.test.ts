@@ -57,7 +57,7 @@ describe('Formatters', () => {
     }];
 
     const output = formatter.format(mockData);
-    assert.ok(output.includes('| 12:00 | 12:30 | 30 min | 5 | 123 |'));
+    assert.ok(output.includes('| 2023-10-10 12:00 | 12:30 | 30 min | 5 | 123 |'));
   });
 
   it('MarkdownFormatter should include station names if provided', () => {

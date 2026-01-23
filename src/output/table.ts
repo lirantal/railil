@@ -19,7 +19,7 @@ export class TableFormatter implements OutputFormatter {
     })
 
     data.forEach(t => {
-      const dep = t.departureTime.split('T')[1]?.substring(0, 5) ?? 'N/A'
+      const dep = t.departureTime.replace('T', ' ').substring(0, 16) ?? 'N/A'
       const arr = t.arrivalTime.split('T')[1]?.substring(0, 5) ?? 'N/A'
 
       const depDate = new Date(t.departureTime)
