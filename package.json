@@ -1,6 +1,6 @@
 {
   "name": "railil",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Israel Rail API and CLI ",
   "types": "dist/main.d.ts",
   "type": "module",
