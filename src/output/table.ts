@@ -1,4 +1,5 @@
 import Table from 'cli-table3'
+import { stations } from '../data/stations.js'
 import type { OutputFormatter } from './types.js'
 import type { Travel, Station } from '../types.js'
 
@@ -14,7 +15,7 @@ export class TableFormatter implements OutputFormatter {
     }
 
     const table = new Table({
-      head: ['Departure', 'Arrival', 'Duration', 'Platform', 'Train #'],
+      head: ['Departure', 'Arrival', 'Duration', 'Platform', 'Train #', 'Route'],
       style: { head: ['cyan'] }
     })
 
@@ -27,13 +28,32 @@ export class TableFormatter implements OutputFormatter {
       const durationMs = arrDate.getTime() - depDate.getTime()
       const durationMins = Math.floor(durationMs / 60000)
 
-      const firstTrain = t.trains[0]
-      const platform = firstTrain ? firstTrain.originPlatform : 'N/A'
-      const trainNum = firstTrain ? firstTrain.trainNumber : 'N/A'
+      const platforms = t.trains.map(tr => tr.originPlatform).join(' ➔ ')
+      const trainNums = t.trains.map(tr => tr.trainNumber).join(' ➔ ')
 
-      table.push([dep, arr, `${durationMins} min`, platform, trainNum])
+      let route = 'Direct'
+      if (t.trains.length > 1) {
+        const interchanges = t.trains.slice(0, -1).map((tr, idx) => {
+          const s = stations.find(st => st.id === String(tr.destinationStation))
+          const name = s ? s.name.en : tr.destinationStation
+          const nextTrain = t.trains[idx + 1]
+          const samePlatform = nextTrain?.isSamePlatformIsland === 'Yes' ? ' (Same platform)' : ''
+          return `${name}${samePlatform}`
+        })
+        route = `Via ${interchanges.join(', ')}`
+      }
+
+      table.push([dep, arr, `${durationMins} min`, platforms, trainNums, route])
     })
 
-    return prefix + table.toString()
+    const messages = new Set<string>()
+    data.forEach(t => t.travelMessages?.forEach(m => messages.add(m)))
+
+    let footer = ''
+    if (messages.size > 0) {
+      footer = '\n\nNotes:\n' + Array.from(messages).map(m => `- ${m}`).join('\n')
+    }
+
+    return prefix + table.toString() + footer
   }
 }

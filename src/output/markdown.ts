@@ -1,3 +1,4 @@
+import { stations } from '../data/stations.js'
 import type { OutputFormatter } from './types.js'
 import type { Travel, Station } from '../types.js'
 
@@ -12,8 +13,8 @@ export class MarkdownFormatter implements OutputFormatter {
       return prefix + 'No trains found.'
     }
 
-    const header = '| Departure | Arrival | Duration | Platform | Train # |'
-    const separator = '|---|---|---|---|---|'
+    const header = '| Departure | Arrival | Duration | Platform | Train # | Route |'
+    const separator = '|---|---|---|---|---|---|'
     const rows = data.map(t => {
       const dep = t.departureTime.replace('T', ' ').substring(0, 16) ?? 'N/A'
       const arr = t.arrivalTime.split('T')[1]?.substring(0, 5) ?? 'N/A'
@@ -23,16 +24,32 @@ export class MarkdownFormatter implements OutputFormatter {
       const durationMs = arrDate.getTime() - depDate.getTime()
       const durationMins = Math.floor(durationMs / 60000)
 
-      // Assuming direct train or first train for platform/number
-      // The API structure has `trains` array (transfers?).
-      // For simple display, let's show the first train's details or summary.
-      const firstTrain = t.trains[0]
-      const platform = firstTrain ? firstTrain.originPlatform : 'N/A'
-      const trainNum = firstTrain ? firstTrain.trainNumber : 'N/A'
+      const platforms = t.trains.map(tr => tr.originPlatform).join(' ➔ ')
+      const trainNums = t.trains.map(tr => tr.trainNumber).join(' ➔ ')
 
-      return `| ${dep} | ${arr} | ${durationMins} min | ${platform} | ${trainNum} |`
+      let route = 'Direct'
+      if (t.trains.length > 1) {
+        const interchanges = t.trains.slice(0, -1).map((tr, idx) => {
+          const s = stations.find(st => st.id === String(tr.destinationStation))
+          const name = s ? s.name.en : tr.destinationStation
+          const nextTrain = t.trains[idx + 1]
+          const samePlatform = nextTrain?.isSamePlatformIsland === 'Yes' ? ' (Same platform)' : ''
+          return `${name}${samePlatform}`
+        })
+        route = `Via ${interchanges.join(', ')}`
+      }
+
+      return `| ${dep} | ${arr} | ${durationMins} min | ${platforms} | ${trainNums} | ${route} |`
     })
 
-    return prefix + [header, separator, ...rows].join('\n')
+    const messages = new Set<string>()
+    data.forEach(t => t.travelMessages?.forEach(m => messages.add(m)))
+
+    let footer = ''
+    if (messages.size > 0) {
+      footer = '\n\n**Notes:**\n' + Array.from(messages).map(m => `- ${m}`).join('\n')
+    }
+
+    return prefix + [header, separator, ...rows].join('\n') + footer
   }
 }

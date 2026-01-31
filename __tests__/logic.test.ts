@@ -41,6 +41,7 @@ describe('Formatters', () => {
     const mockData: Travel[] = [{
       departureTime: '2023-10-10T12:00:00',
       arrivalTime: '2023-10-10T12:30:00',
+      travelMessages: [],
       trains: [{
         trainNumber: 123,
         orignStation: 1,
@@ -57,7 +58,49 @@ describe('Formatters', () => {
     }];
 
     const output = formatter.format(mockData);
-    assert.ok(output.includes('| 2023-10-10 12:00 | 12:30 | 30 min | 5 | 123 |'));
+    assert.ok(output.includes('| 2023-10-10 12:00 | 12:30 | 30 min | 5 | 123 | Direct |'));
+  });
+
+  it('MarkdownFormatter should format train data with transfers', () => {
+    const formatter = new MarkdownFormatter();
+    const mockData: Travel[] = [{
+      departureTime: '2023-10-10T12:00:00',
+      arrivalTime: '2023-10-10T13:00:00',
+      travelMessages: ['Test message'],
+      trains: [
+        {
+          trainNumber: 123,
+          orignStation: 5800,
+          destinationStation: 4900,
+          originPlatform: 1,
+          destPlatform: 4,
+          arrivalTime: '2023-10-10T12:40:00',
+          departureTime: '2023-10-10T12:00:00',
+          stopStations: [],
+          routeStations: [],
+          handicap: 1,
+          isSamePlatformIsland: 'No'
+        },
+        {
+          trainNumber: 456,
+          orignStation: 4900,
+          destinationStation: 8600,
+          originPlatform: 3,
+          destPlatform: 1,
+          arrivalTime: '2023-10-10T13:00:00',
+          departureTime: '2023-10-10T12:45:00',
+          stopStations: [],
+          routeStations: [],
+          handicap: 1,
+          isSamePlatformIsland: 'Yes'
+        }
+      ]
+    }];
+
+    const output = formatter.format(mockData);
+    assert.ok(output.includes('| 2023-10-10 12:00 | 13:00 | 60 min | 1 ➔ 3 | 123 ➔ 456 | Via Tel Aviv-HaHagana (Same platform) |'));
+    assert.ok(output.includes('**Notes:**'));
+    assert.ok(output.includes('- Test message'));
   });
 
   it('MarkdownFormatter should include station names if provided', () => {

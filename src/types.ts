@@ -34,6 +34,7 @@ export interface Travel {
   departureTime: string;
   arrivalTime: string;
   freeSeats?: number;
+  travelMessages: string[];
   trains: Train[];
 }
 

@@ -80,6 +80,7 @@ interface Travel {
   departureTime: string; // ISO 8601
   arrivalTime: string;   // ISO 8601
   freeSeats?: number;
+  travelMessages: string[];
   trains: Train[];       // Array of trains involved (handling transfers)
 }
 ```
