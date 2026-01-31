@@ -8,16 +8,6 @@
         // "ghcr.io/devcontainer-community/devcontainer-features/astral.sh-uv:1": {},
         "ghcr.io/devcontainers/features/node:1": {}
     },
-    // Setup for Podman non-root user:
-    // --- START ---
-    "remoteUser": "node",
-    "containerUser": "node",
-    "updateRemoteUserUID": false,
-    "runArgs": [
-        "--userns=keep-id:uid=1000,gid=1000",
-        "--mount=type=tmpfs,destination=/tmp,tmpfs-mode=1777"
-    ],
-    // --- END ---
     // Install OpenCode CLI
     "postCreateCommand": "bash .devcontainer/post-create.sh"
 }
