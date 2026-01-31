@@ -51,14 +51,14 @@ describe('Formatters', () => {
         arrivalTime: '2023-10-10T12:30:00',
         departureTime: '2023-10-10T12:00:00',
         stopStations: [],
-        routeStations: [],
+        routeStations: [{ stationId: 3500, arrivalTime: '12:30', departureTime: '12:30', platform: 1 }],
         handicap: 1,
         isSamePlatformIsland: 'No'
       }]
     }];
 
     const output = formatter.format(mockData);
-    assert.ok(output.includes('| 2023-10-10 12:00 | 12:30 | 30 min | 5 | 123 | Direct |'));
+    assert.ok(output.includes('| 2023-10-10 12:00 | 12:30 | 30 min | 5 | 123 (הרצליה) | Direct |'));
   });
 
   it('MarkdownFormatter should format train data with transfers', () => {
@@ -77,7 +77,7 @@ describe('Formatters', () => {
           arrivalTime: '2023-10-10T12:40:00',
           departureTime: '2023-10-10T12:00:00',
           stopStations: [],
-          routeStations: [],
+          routeStations: [{ stationId: 3500, arrivalTime: '12:40', departureTime: '12:40', platform: 1 }],
           handicap: 1,
           isSamePlatformIsland: 'No'
         },
@@ -90,7 +90,7 @@ describe('Formatters', () => {
           arrivalTime: '2023-10-10T13:00:00',
           departureTime: '2023-10-10T12:45:00',
           stopStations: [],
-          routeStations: [],
+          routeStations: [{ stationId: 680, arrivalTime: '13:00', departureTime: '13:00', platform: 1 }],
           handicap: 1,
           isSamePlatformIsland: 'Yes'
         }
@@ -98,7 +98,7 @@ describe('Formatters', () => {
     }];
 
     const output = formatter.format(mockData);
-    assert.ok(output.includes('| 2023-10-10 12:00 | 13:00 | 60 min | 1 ➔ 3 | 123 ➔ 456 | Via Tel Aviv-HaHagana (Same platform) |'));
+    assert.ok(output.includes('| 2023-10-10 12:00 | 13:00 | 60 min | 1 ➔ 3 | 123 (הרצליה) ➔ 456 (ירושלים - יצחק נבון) | Via Tel Aviv-HaHagana (Same platform) |'));
     assert.ok(output.includes('**Notes:**'));
     assert.ok(output.includes('- Test message'));
   });

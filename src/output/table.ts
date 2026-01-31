@@ -29,7 +29,16 @@ export class TableFormatter implements OutputFormatter {
       const durationMins = Math.floor(durationMs / 60000)
 
       const platforms = t.trains.map(tr => tr.originPlatform).join(' ➔ ')
-      const trainNums = t.trains.map(tr => tr.trainNumber).join(' ➔ ')
+      const trainNums = t.trains.map(tr => {
+        const lastStop = tr.routeStations[tr.routeStations.length - 1]
+        if (lastStop) {
+          const s = stations.find(st => st.id === String(lastStop.stationId))
+          if (s) {
+            return `${tr.trainNumber} (${s.name.he})`
+          }
+        }
+        return tr.trainNumber
+      }).join(' ➔ ')
 
       let route = 'Direct'
       if (t.trains.length > 1) {
