@@ -10,6 +10,9 @@
   <a href="https://github.com/lirantal/railil/actions?workflow=CI"><img src="https://github.com/lirantal/railil/workflows/CI/badge.svg" alt="build"/></a>
 </p>
 
+<div align="center">
+<img src="./.github/railil-screenshot.png" alt="railil screenshot" width="600"/>
+
 ## Features
 * **🚄 CLI & API**: Use it as a command-line tool or a library.
 *   **🔄 Transfer Support**: Detailed visibility for journeys requiring transfers or bus substitutions.
