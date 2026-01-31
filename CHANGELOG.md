@@ -1,5 +1,11 @@
 # railil
 
+## 1.1.0
+
+### Minor Changes
+
+- [`8c40e5f`](https://github.com/lirantal/railil/commit/8c40e5fe727b3b70d8d9b2184f0ec7e2a4cba3ec) Thanks [@lirantal](https://github.com/lirantal)! - feat: support train names and add journey routes information
+
 ## 1.0.0
 
 ### Major Changes
