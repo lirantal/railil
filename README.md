@@ -11,7 +11,8 @@
 </p>
 
 <div align="center">
-<img src="./.github/railil-screenshot.png" alt="railil screenshot" width="600"/>
+  <img src="./.github/railil-screenshot.png" alt="railil screenshot" width="600"/>
+</div>
 
 ## Features
 * **🚄 CLI & API**: Use it as a command-line tool or a library.
