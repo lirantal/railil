@@ -5,8 +5,8 @@
 `railil` allows you to query train schedules directly from your terminal or integrate Israel Rail data into your Node.js applications. It features fuzzy station searching, multiple output formats, and a zero-dependency architecture (runtime).
 
 <p align="center">
-  <a href="https://www.npmjs.org/package/railil"><img src="https://badgen.net/npm/v/railil" alt="npm version"/></a>
-  <a href="https://www.npmjs.org/package/railil"><img src="https://badgen.net/npm/license/railil" alt="license"/></a>
+  <a href="https://www.npmjs.com/package/railil"><img src="https://badgen.net/npm/v/railil" alt="npm version"/></a>
+  <a href="https://www.npmjs.com/package/railil"><img src="https://badgen.net/npm/license/railil" alt="license"/></a>
   <a href="https://github.com/lirantal/railil/actions?workflow=CI"><img src="https://github.com/lirantal/railil/workflows/CI/badge.svg" alt="build"/></a>
 </p>
 
