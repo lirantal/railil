@@ -127,3 +127,7 @@ See [API Documentation](docs/api.md) for full reference.
 ## License
 
 Apache-2.0
+
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
