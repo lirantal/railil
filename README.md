@@ -15,9 +15,10 @@
 </div>
 
 ## Features
+
 * **🚄 CLI & API**: Use it as a command-line tool or a library.
-*   **🔄 Transfer Support**: Detailed visibility for journeys requiring transfers or bus substitutions.
-*   **🔍 Fuzzy Search**: Smart matching for station names (e.g., "Savidor", "Modiin").
+* **🔄 Transfer Support**: Detailed visibility for journeys requiring transfers or bus substitutions.
+* **🔍 Fuzzy Search**: Smart matching for station names (e.g., "Savidor", "Modiin").
 
 * **⏰ Smart Scheduling**: Automatically finds upcoming trains starting from "now" (Israel time), filtering out past departures.
 * **🎨 Flexible Output**: JSON (for piping), Markdown (for notes), or beautiful CLI Tables.
