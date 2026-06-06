@@ -23,7 +23,6 @@ export default defineConfig([
       'n/no-unpublished-require': 'off',
       'security/detect-non-literal-fs-filename': 'off',
       'security/detect-unsafe-regex': 'error',
-      'security/detect-unsafe-regex': 'error',
       'security/detect-buffer-noassert': 'error',
       'security/detect-child-process': 'error',
       'security/detect-disable-mustache-escape': 'error',
