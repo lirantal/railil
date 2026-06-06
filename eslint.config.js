@@ -1,13 +1,19 @@
+import js from '@eslint/js'
+import { defineConfig, globalIgnores } from 'eslint/config'
+import pluginN from 'eslint-plugin-n'
 import pluginSecurity from 'eslint-plugin-security'
-import neostandard, { resolveIgnoresFromGitignore, plugins } from 'neostandard'
+import tseslint from 'typescript-eslint'
 
-export default [
-  ...neostandard({
-    ignores: ['__tests__/**/*.ts', ...resolveIgnoresFromGitignore()],
-    ts: true,   // Enable TypeScript support,
-    filesTs: ['src/**/*.ts', '__tests__/**/*.ts']
-  }),
-  plugins.n.configs['flat/recommended-script'],
+export default defineConfig([
+  globalIgnores([
+    '__tests__/**/*.ts',
+    'dist/**',
+    'coverage/**',
+    'node_modules/**'
+  ]),
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  pluginN.configs['flat/recommended-script'],
   pluginSecurity.configs.recommended,
   {
     rules: {
@@ -16,6 +22,7 @@ export default [
       'n/no-unsupported-features': 'off',
       'n/no-unpublished-require': 'off',
       'security/detect-non-literal-fs-filename': 'off',
+      'security/detect-unsafe-regex': 'error',
       'security/detect-unsafe-regex': 'error',
       'security/detect-buffer-noassert': 'error',
       'security/detect-child-process': 'error',
@@ -34,7 +41,7 @@ export default [
     },
     languageOptions: {
       ecmaVersion: 2024,
-      sourceType: 'module',
-    },
-  },
-]
+      sourceType: 'module'
+    }
+  }
+])
