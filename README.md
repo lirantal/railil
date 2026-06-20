@@ -129,6 +129,10 @@ See [API Documentation](docs/api.md) for full reference.
 
 Apache-2.0
 
+## Documentation
+
+- [Project documentation](./docs/README.md) - development, testing, architecture, and conventions.
+
 ## Contributing
 
 Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
