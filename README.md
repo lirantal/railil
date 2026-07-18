@@ -54,15 +54,15 @@ npm install railil
 ### Options
 
 | Flag | Short | Type | Description | Default |
-|------|-------|------|-------------|---------|
+| --- | --- | --- | --- | --- |
 | `--from` | `-f` | string | **Required**. Origin station name or ID. Supports fuzzy matching. | - |
 | `--to` | `-t` | string | **Required**. Destination station name or ID. Supports fuzzy matching. | - |
 | `--date` | `-d` | string | Date in `YYYY-MM-DD` format. | Today (Israel) |
 | `--time` | | string | Time in `HH:MM` format. | Now (Israel) |
-| `--limit`| | number | Number of results to display. | `5` |
-| `--output`| `-o` | string | Output format: `markdown`, `table`, `json`. | `markdown` |
-| `--json` | | boolean| Alias for `--output json`. | `false` |
-| `--help` | `-h` | boolean| Show help message. | - |
+| `--limit` | | number | Number of results to display. | `5` |
+| `--output` | `-o` | string | Output format: `markdown`, `table`, `json`. | `markdown` |
+| `--json` | | boolean | Alias for `--output json`. | `false` |
+| `--help` | `-h` | boolean | Show help message. | - |
 
 ### Examples
 
