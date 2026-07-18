@@ -131,7 +131,7 @@ Apache-2.0
 
 ## Documentation
 
-- [Project documentation](./docs/README.md) - development, testing, architecture, and conventions.
+* [Project documentation](./docs/README.md) - development, testing, architecture, and conventions.
 
 ## Contributing
 
