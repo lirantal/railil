@@ -110,5 +110,6 @@
   "dependencies": {
     "cli-table3": "^0.6.5",
     "fuse.js": "^7.1.0"
-  }
+  },
+  "packageManager": "npm@11.21.0"
 }
